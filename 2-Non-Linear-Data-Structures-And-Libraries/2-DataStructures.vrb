@@ -1,0 +1,13 @@
+\frametitle{Fenwick Tree - Implementation II}
+	\begin{itemize}
+	    \item If we want to obtain the cumulative frequency between \verb|[1,...,b]|, we simply add \verb|ft[b],ft[b'],ft[b''],...| until index $b^i$ is $0$
+	    \item \verb|b' = b - LSOne(b)|
+	    \item This process runs in $O(\log n)$ when \verb|b=n|
+	\end{itemize}
+	\begin{figure}
+	    \centering
+	    \includegraphics[scale=0.3]{imgs/2.4/fenwick-tree/rsq.png}
+	\end{figure}
+	\begin{itemize}
+	    \item To evaluate the cumulative frequency between two indices \verb|[a...b]| where \verb|a != 1| we simply evaluate \verb|rsq(a, b) = rsq(b) - rsq(a-1)|
+	\end{itemize}

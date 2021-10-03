@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{4.2 Graph Traversal}{2}{0}{1}
+\beamer@sectionintoc {2}{4.3 Minimum Spanning Tree}{34}{0}{2}
+\beamer@sectionintoc {3}{4.4 Single-Source Shortest Paths}{36}{0}{3}

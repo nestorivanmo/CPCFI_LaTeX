@@ -1,0 +1,6 @@
+\frametitle{2D - Triangles - Features}
+\begin{itemize}
+        \item Find the center of the incircle: meeting point between the triangle's angel bicectors
+        \item Find the center of the circumcircle: meeting point between the triangle's perepdnicular bisectors
+		\item \color{red} \verb|C++| code: \verb|ch7_03_triangles.cpp| \color{black}
+    \end{itemize}
